@@ -1,3 +1,29 @@
+.header {
+    margin-bottom: -44px;
+}
+
+.tabs {
+    text-align: right;
+    display: block;
+}
+
+.tab {
+    display: inline-block;
+    background-image: linear-gradient(black, darkgrey);
+    color: white;
+    border: 1px darkgrey solid;
+    border-bottom: none;
+    line-height: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+}
+
 .landing {
     background-image: url("/dining.jpg");
     background-size: cover;
@@ -18,4 +44,29 @@ p {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 1.2rem;
     text-align: center;
+}
+
+.menu-container {
+    background-color: #F5F5F5;
+    height: 96vh;
+    width: 100%;
+    margin: 45px auto 0 auto;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.menu-item {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
 }
