@@ -50,23 +50,74 @@ p {
     background-color: #F5F5F5;
     height: 96vh;
     width: 100%;
-    margin: 45px auto 0 auto;
+    margin: 44px auto 0 auto;
     text-align: center;
     font-family: 'Lobster', cursive;
 }
 
+.menu-title {
+    padding-top: 20px;
+    font-size: 2.5rem;
+}
+
+.menu-list {
+    height: 85vh;
+    width: 800px;
+    margin: -20px auto 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
 .menu-item {
-    width: 400px;
-    height: 200px;
-    display: inline-block;
     font-family: 'Quattrocento Sans', sans-serif;
+    width: 48%;
+    height: 260px;
+    list-style: none;
+    background-color: white;
+    margin-top: 10px;
+    border: 1px solid lightgrey;
+}
+
+.menu-inner {
+    margin-top: 20px;
 }
 
 img {
-    width: 200px;
-    height: auto;
+    width: 250px;
     text-align: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: -10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
 
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact {
+    color: black;
+    text-align: center;
+    margin-top: 44px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.iframe {
+    width: 800px;
+    height: 600px;
+    border: 0;
+}
+
+h2 {
+    font-size: 4rem;
+    padding-top: 20px;
+    font-family: 'Lobster', cursive;
+    color: limegreen;
+}
+
+h5 {
+    font-size: 1.6rem;
 }
