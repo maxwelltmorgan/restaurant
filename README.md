@@ -2,7 +2,7 @@
 
 ## This project was completed as part of Odin Project's curriculum
 
-![screenshot](restaurant.jpeg);
+![screenshot](restaurant2.jpeg);
 
 1. Practice DOM manipulation by dynamically rendering simple restaurant homepage!
 
